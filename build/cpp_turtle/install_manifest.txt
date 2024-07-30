@@ -1,0 +1,16 @@
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/cpp_turtle/initNode
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/ament_index/resource_index/package_run_dependencies/cpp_turtle
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/ament_index/resource_index/parent_prefix_path/cpp_turtle
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/environment/ament_prefix_path.sh
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/environment/ament_prefix_path.dsv
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/environment/path.sh
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/environment/path.dsv
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/local_setup.bash
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/local_setup.sh
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/local_setup.zsh
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/local_setup.dsv
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/package.dsv
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/ament_index/resource_index/packages/cpp_turtle
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtleConfig.cmake
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtleConfig-version.cmake
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/package.xml

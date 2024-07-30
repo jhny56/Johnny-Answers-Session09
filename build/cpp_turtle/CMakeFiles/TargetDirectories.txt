@@ -1,0 +1,10 @@
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle/CMakeFiles/uninstall.dir
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle/CMakeFiles/cpp_turtle_uninstall.dir
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle/CMakeFiles/initNode.dir
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle/CMakeFiles/test.dir
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle/CMakeFiles/edit_cache.dir
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle/CMakeFiles/rebuild_cache.dir
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle/CMakeFiles/list_install_components.dir
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle/CMakeFiles/install.dir
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle/CMakeFiles/install/local.dir
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle/CMakeFiles/install/strip.dir
