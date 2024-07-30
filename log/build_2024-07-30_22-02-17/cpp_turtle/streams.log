@@ -1,0 +1,35 @@
+[0.017s] Invoking command in '/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle -- -j6 -l6
+[0.089s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.336s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.456s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.456s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.462s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.520s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.572s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.713s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.723s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.984s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.283s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.366s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.000s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.354s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.848s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.893s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.936s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.936s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.936s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.973s] [31mCMake Error at CMakeLists.txt:60 (install):
+[2.973s]   install TARGETS given target "robot_driver" which does not exist.
+[2.974s] 
+[2.974s] [0m
+[3.009s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.024s] -- Configured cppcheck include dirs: /home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/include;$<BUILD_INTERFACE:/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/include>
+[3.024s] -- Configured cppcheck exclude dirs and/or files: 
+[3.028s] -- Added test 'lint_cmake' to check CMake code style
+[3.034s] -- Added test 'uncrustify' to check C / C++ code style
+[3.034s] -- Configured uncrustify additional arguments: 
+[3.036s] -- Added test 'xmllint' to check XML markup files
+[3.077s] -- Configuring incomplete, errors occurred!
+[3.077s] See also "/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle/CMakeFiles/CMakeOutput.log".
+[3.094s] gmake: *** [Makefile:1004: cmake_check_build_system] Error 1
+[3.100s] Invoked command in '/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle -- -j6 -l6

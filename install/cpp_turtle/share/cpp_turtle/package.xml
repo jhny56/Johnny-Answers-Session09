@@ -3,7 +3,7 @@
 <package format="3">
   <name>cpp_turtle</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Turtle race with gazebo and turtle sim 3</description>
   <maintainer email="johnny-hanna@outlook.com">robot</maintainer>
   <license>TODO: License declaration</license>
 
@@ -11,6 +11,10 @@
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
+
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <depend>action_msgs</depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
 
   <export>
     <build_type>ament_cmake</build_type>

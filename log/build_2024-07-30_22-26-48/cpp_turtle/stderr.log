@@ -1,0 +1,56 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/robot_driver.hpp:4[m[K,
+                 from [01m[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/robot_driver.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28:10:[m[K [01;31m[Kfatal error: [m[Krcl_interfaces/msg/set_parameters_result.hpp: No such file or directory
+   28 | #include [01;31m[K"rcl_interfaces/msg/set_parameters_result.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/lap_time_action_server.hpp:4[m[K,
+                 from [01m[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/lap_time_action_server.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28:10:[m[K [01;31m[Kfatal error: [m[Krcl_interfaces/msg/set_parameters_result.hpp: No such file or directory
+   28 | #include [01;31m[K"rcl_interfaces/msg/set_parameters_result.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/lap_time_action_client.hpp:4[m[K,
+                 from [01m[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/lap_time_action_client.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28:10:[m[K [01;31m[Kfatal error: [m[Krcl_interfaces/msg/set_parameters_result.hpp: No such file or directory
+   28 | #include [01;31m[K"rcl_interfaces/msg/set_parameters_result.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/lap_time_action_server.dir/build.make:76: CMakeFiles/lap_time_action_server.dir/src/lap_time_action_server.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/lap_time_action_client.dir/build.make:76: CMakeFiles/lap_time_action_client.dir/src/lap_time_action_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/lap_time_action_server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:624: CMakeFiles/lap_time_action_client.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/robot_driver.dir/build.make:76: CMakeFiles/robot_driver.dir/src/robot_driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:676: CMakeFiles/robot_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

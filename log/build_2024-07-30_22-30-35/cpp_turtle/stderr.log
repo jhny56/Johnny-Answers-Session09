@@ -1,0 +1,23 @@
+In file included from [01m[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/robot_driver.cpp:1[m[K:
+[01m[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/robot_driver.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Kcpp_turtle/srv/find_wall.hpp: No such file or directory
+    7 | #include [01;31m[K"cpp_turtle/srv/find_wall.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/robot_driver.dir/build.make:76: CMakeFiles/robot_driver.dir/src/robot_driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:676: CMakeFiles/robot_driver.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/lap_time_action_server.cpp:1[m[K:
+[01m[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/lap_time_action_server.hpp:8:10:[m[K [01;31m[Kfatal error: [m[Kcpp_turtle/action/measure_lap_time.hpp: No such file or directory
+    8 | #include [01;31m[K"cpp_turtle/action/measure_lap_time.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/lap_time_action_server.dir/build.make:76: CMakeFiles/lap_time_action_server.dir/src/lap_time_action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/lap_time_action_server.dir/all] Error 2
+In file included from [01m[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/lap_time_action_client.cpp:1[m[K:
+[01m[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/lap_time_action_client.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Kcpp_turtle/action/measure_lap_time.hpp: No such file or directory
+    7 | #include [01;31m[K"cpp_turtle/action/measure_lap_time.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/lap_time_action_client.dir/build.make:76: CMakeFiles/lap_time_action_client.dir/src/lap_time_action_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:624: CMakeFiles/lap_time_action_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

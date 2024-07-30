@@ -1,0 +1,180 @@
+[0.000000] (-) TimerEvent: {}
+[0.000315] (cpp_turtle) JobQueued: {'identifier': 'cpp_turtle', 'dependencies': OrderedDict()}
+[0.000385] (cpp_turtle) JobStarted: {'identifier': 'cpp_turtle'}
+[0.023114] (cpp_turtle) JobProgress: {'identifier': 'cpp_turtle', 'progress': 'cmake'}
+[0.024940] (cpp_turtle) JobProgress: {'identifier': 'cpp_turtle', 'progress': 'build'}
+[0.027355] (cpp_turtle) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle', '--', '-j6', '-l6'], 'cwd': '/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'robot'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2613'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e388c720f9964f6c36a715ee66a92db9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot-virtual-machine:@/tmp/.ICE-unix/2613,unix/robot-virtual-machine:/tmp/.ICE-unix/2613'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3eac80cf_34b8_47c0_a86b_8d9f88e402ee'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VDCJR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.343'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e388c720f9964f6c36a715ee66a92db9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.095153] (cpp_turtle) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.097672] (-) TimerEvent: {}
+[0.198276] (-) TimerEvent: {}
+[0.298845] (-) TimerEvent: {}
+[0.349341] (cpp_turtle) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.398980] (-) TimerEvent: {}
+[0.475889] (cpp_turtle) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.479365] (cpp_turtle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.484359] (cpp_turtle) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.499349] (-) TimerEvent: {}
+[0.546994] (cpp_turtle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.599815] (-) TimerEvent: {}
+[0.700572] (-) TimerEvent: {}
+[0.801600] (-) TimerEvent: {}
+[0.902345] (-) TimerEvent: {}
+[1.003428] (-) TimerEvent: {}
+[1.104436] (-) TimerEvent: {}
+[1.164302] (cpp_turtle) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.204794] (-) TimerEvent: {}
+[1.305606] (-) TimerEvent: {}
+[1.406238] (-) TimerEvent: {}
+[1.506860] (-) TimerEvent: {}
+[1.545145] (cpp_turtle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.606954] (-) TimerEvent: {}
+[1.707652] (-) TimerEvent: {}
+[1.809038] (-) TimerEvent: {}
+[1.909682] (-) TimerEvent: {}
+[2.010372] (-) TimerEvent: {}
+[2.051036] (cpp_turtle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.097637] (cpp_turtle) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.110574] (-) TimerEvent: {}
+[2.145156] (cpp_turtle) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.145581] (cpp_turtle) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.145805] (cpp_turtle) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.180938] (cpp_turtle) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.210935] (-) TimerEvent: {}
+[2.278922] (cpp_turtle) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.281674] (cpp_turtle) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.311146] (-) TimerEvent: {}
+[2.411814] (-) TimerEvent: {}
+[2.512464] (-) TimerEvent: {}
+[2.515948] (cpp_turtle) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.613084] (-) TimerEvent: {}
+[2.713766] (-) TimerEvent: {}
+[2.814473] (-) TimerEvent: {}
+[2.838614] (cpp_turtle) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[2.897857] (cpp_turtle) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.915246] (-) TimerEvent: {}
+[2.990576] (cpp_turtle) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.015567] (-) TimerEvent: {}
+[3.116452] (-) TimerEvent: {}
+[3.154599] (cpp_turtle) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[3.216705] (-) TimerEvent: {}
+[3.317279] (-) TimerEvent: {}
+[3.332358] (cpp_turtle) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.353667] (cpp_turtle) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/include;$<BUILD_INTERFACE:/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/include>\n'}
+[3.354027] (cpp_turtle) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.355361] (cpp_turtle) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.356318] (cpp_turtle) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.357287] (cpp_turtle) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.361238] (cpp_turtle) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.361483] (cpp_turtle) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.361697] (cpp_turtle) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.367689] (cpp_turtle) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.417476] (-) TimerEvent: {}
+[3.507311] (cpp_turtle) StdoutLine: {'line': b'-- Generating done\n'}
+[3.519238] (-) TimerEvent: {}
+[3.526600] (cpp_turtle) StdoutLine: {'line': b'-- Build files have been written to: /home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle\n'}
+[3.608333] (cpp_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_generator_c\x1b[0m\n'}
+[3.619185] (cpp_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target initNode\x1b[0m\n'}
+[3.619484] (-) TimerEvent: {}
+[3.709682] (cpp_turtle) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/initNode.dir/src/initNode.cpp.o\x1b[0m\n'}
+[3.710116] (cpp_turtle) StdoutLine: {'line': b'[  4%] Built target cpp_turtle__cpp\n'}
+[3.710327] (cpp_turtle) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/cpp_turtle__rosidl_generator_c.dir/rosidl_generator_c/cpp_turtle/action/detail/measure_lap_time__functions.c.o\x1b[0m\n'}
+[3.720752] (-) TimerEvent: {}
+[3.731723] (cpp_turtle) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/lap_time_action_client.dir/src/lap_time_action_client.cpp.o\x1b[0m\n'}
+[3.762459] (cpp_turtle) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_copy_cpp_turtle\n'}
+[3.769103] (cpp_turtle) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/lap_time_action_server.dir/src/lap_time_action_server.cpp.o\x1b[0m\n'}
+[3.797353] (cpp_turtle) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/robot_driver.dir/src/robot_driver.cpp.o\x1b[0m\n'}
+[3.821974] (cpp_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.822317] (-) TimerEvent: {}
+[3.908443] (cpp_turtle) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/cpp_turtle__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cpp_turtle/action/measure_lap_time__type_support.cpp.o\x1b[0m\n'}
+[3.924187] (-) TimerEvent: {}
+[4.039364] (-) TimerEvent: {}
+[4.152131] (-) TimerEvent: {}
+[4.252557] (-) TimerEvent: {}
+[4.353050] (cpp_turtle) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking CXX executable initNode\x1b[0m\n'}
+[4.353424] (-) TimerEvent: {}
+[4.454521] (-) TimerEvent: {}
+[4.555335] (-) TimerEvent: {}
+[4.656364] (-) TimerEvent: {}
+[4.757174] (-) TimerEvent: {}
+[4.853028] (cpp_turtle) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/cpp_turtle__rosidl_generator_c.dir/rosidl_generator_c/cpp_turtle/srv/detail/find_wall__functions.c.o\x1b[0m\n'}
+[4.864426] (-) TimerEvent: {}
+[4.933154] (cpp_turtle) StdoutLine: {'line': b'[ 19%] Built target initNode\n'}
+[4.970340] (-) TimerEvent: {}
+[5.024049] (cpp_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.070486] (-) TimerEvent: {}
+[5.136889] (cpp_turtle) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/cpp_turtle__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cpp_turtle/action/detail/dds_fastrtps/measure_lap_time__type_support.cpp.o\x1b[0m\n'}
+[5.159042] (cpp_turtle) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking C shared library libcpp_turtle__rosidl_generator_c.so\x1b[0m\n'}
+[5.194831] (-) TimerEvent: {}
+[5.295415] (-) TimerEvent: {}
+[5.405976] (-) TimerEvent: {}
+[5.500227] (cpp_turtle) StdoutLine: {'line': b'[ 25%] Built target cpp_turtle__rosidl_generator_c\n'}
+[5.506088] (-) TimerEvent: {}
+[5.547586] (cpp_turtle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/robot_driver.cpp:1\x1b[m\x1b[K:\n'}
+[5.547950] (cpp_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/robot_driver.hpp:7:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcpp_turtle/srv/find_wall.hpp: No such file or directory\n'}
+[5.548178] (cpp_turtle) StderrLine: {'line': b'    7 | #include \x1b[01;31m\x1b[K"cpp_turtle/srv/find_wall.hpp"\x1b[m\x1b[K\n'}
+[5.548358] (cpp_turtle) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.548529] (cpp_turtle) StderrLine: {'line': b'compilation terminated.\n'}
+[5.552202] (cpp_turtle) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_driver.dir/build.make:76: CMakeFiles/robot_driver.dir/src/robot_driver.cpp.o] Error 1\n'}
+[5.568747] (cpp_turtle) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:676: CMakeFiles/robot_driver.dir/all] Error 2\n'}
+[5.569071] (cpp_turtle) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[5.573020] (cpp_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.606380] (-) TimerEvent: {}
+[5.612966] (cpp_turtle) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/cpp_turtle__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cpp_turtle/srv/detail/dds_fastrtps/find_wall__type_support.cpp.o\x1b[0m\n'}
+[5.667948] (cpp_turtle) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/cpp_turtle__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cpp_turtle/action/detail/measure_lap_time__type_support.cpp.o\x1b[0m\n'}
+[5.708293] (-) TimerEvent: {}
+[5.766340] (cpp_turtle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/lap_time_action_server.cpp:1\x1b[m\x1b[K:\n'}
+[5.766665] (cpp_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/lap_time_action_server.hpp:8:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcpp_turtle/action/measure_lap_time.hpp: No such file or directory\n'}
+[5.766835] (cpp_turtle) StderrLine: {'line': b'    8 | #include \x1b[01;31m\x1b[K"cpp_turtle/action/measure_lap_time.hpp"\x1b[m\x1b[K\n'}
+[5.766987] (cpp_turtle) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.767131] (cpp_turtle) StderrLine: {'line': b'compilation terminated.\n'}
+[5.791342] (cpp_turtle) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lap_time_action_server.dir/build.make:76: CMakeFiles/lap_time_action_server.dir/src/lap_time_action_server.cpp.o] Error 1\n'}
+[5.791696] (cpp_turtle) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/lap_time_action_server.dir/all] Error 2\n'}
+[5.791871] (cpp_turtle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/lap_time_action_client.cpp:1\x1b[m\x1b[K:\n'}
+[5.792040] (cpp_turtle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/lap_time_action_client.hpp:7:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcpp_turtle/action/measure_lap_time.hpp: No such file or directory\n'}
+[5.792239] (cpp_turtle) StderrLine: {'line': b'    7 | #include \x1b[01;31m\x1b[K"cpp_turtle/action/measure_lap_time.hpp"\x1b[m\x1b[K\n'}
+[5.792403] (cpp_turtle) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.792556] (cpp_turtle) StderrLine: {'line': b'compilation terminated.\n'}
+[5.794917] (cpp_turtle) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lap_time_action_client.dir/build.make:76: CMakeFiles/lap_time_action_client.dir/src/lap_time_action_client.cpp.o] Error 1\n'}
+[5.795492] (cpp_turtle) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:624: CMakeFiles/lap_time_action_client.dir/all] Error 2\n'}
+[5.808489] (-) TimerEvent: {}
+[5.842831] (cpp_turtle) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/cpp_turtle__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cpp_turtle/srv/find_wall__type_support.cpp.o\x1b[0m\n'}
+[5.860193] (cpp_turtle) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/cpp_turtle__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cpp_turtle/srv/detail/find_wall__type_support.cpp.o\x1b[0m\n'}
+[5.908643] (-) TimerEvent: {}
+[6.009095] (-) TimerEvent: {}
+[6.110772] (-) TimerEvent: {}
+[6.217973] (-) TimerEvent: {}
+[6.324122] (-) TimerEvent: {}
+[6.427608] (-) TimerEvent: {}
+[6.529561] (-) TimerEvent: {}
+[6.638960] (-) TimerEvent: {}
+[6.758123] (-) TimerEvent: {}
+[6.861695] (-) TimerEvent: {}
+[6.965475] (-) TimerEvent: {}
+[7.023060] (cpp_turtle) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_turtle__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.065617] (-) TimerEvent: {}
+[7.166308] (-) TimerEvent: {}
+[7.266984] (-) TimerEvent: {}
+[7.369349] (-) TimerEvent: {}
+[7.459629] (cpp_turtle) StdoutLine: {'line': b'[ 38%] Built target cpp_turtle__rosidl_typesupport_cpp\n'}
+[7.469494] (-) TimerEvent: {}
+[7.570187] (-) TimerEvent: {}
+[7.587974] (cpp_turtle) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_turtle__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.673519] (-) TimerEvent: {}
+[7.777924] (-) TimerEvent: {}
+[7.828693] (cpp_turtle) StdoutLine: {'line': b'[ 42%] Built target cpp_turtle__rosidl_typesupport_fastrtps_cpp\n'}
+[7.879405] (-) TimerEvent: {}
+[7.980220] (-) TimerEvent: {}
+[8.028959] (cpp_turtle) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_turtle__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.081838] (-) TimerEvent: {}
+[8.182566] (-) TimerEvent: {}
+[8.210927] (cpp_turtle) StdoutLine: {'line': b'[ 46%] Built target cpp_turtle__rosidl_typesupport_introspection_cpp\n'}
+[8.215734] (cpp_turtle) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.220770] (cpp_turtle) CommandEnded: {'returncode': 2}
+[8.283423] (-) TimerEvent: {}
+[8.384011] (-) TimerEvent: {}
+[8.484826] (-) TimerEvent: {}
+[8.586042] (-) TimerEvent: {}
+[8.686773] (-) TimerEvent: {}
+[8.780132] (cpp_turtle) JobEnded: {'identifier': 'cpp_turtle', 'rc': 2}
+[8.787088] (-) TimerEvent: {}
+[8.791468] (-) EventReactorShutdown: {}

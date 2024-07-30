@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cpp_turtle/srv/FindWall.srv
+// generated code does not contain a copyright notice
+
+
+module cpp_turtle {
+  module srv {
+    struct FindWall_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct FindWall_Response {
+      boolean success;
+    };
+  };
+};

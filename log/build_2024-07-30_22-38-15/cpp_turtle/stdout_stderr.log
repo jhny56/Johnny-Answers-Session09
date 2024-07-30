@@ -1,0 +1,87 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/include;$<BUILD_INTERFACE:/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle
+[35m[1mConsolidate compiler generated dependencies of target initNode[0m
+[35m[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_generator_c[0m
+[35m[1mConsolidate compiler generated dependencies of target lap_time_action_client[0m
+[35m[1mConsolidate compiler generated dependencies of target lap_time_action_server[0m
+[  8%] Built target cpp_turtle__rosidl_generator_c
+[ 12%] Built target initNode
+[ 14%] Built target cpp_turtle__cpp
+[35m[1mConsolidate compiler generated dependencies of target robot_driver[0m
+[ 14%] Built target ament_cmake_python_copy_cpp_turtle
+[35m[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_typesupport_cpp[0m
+[ 17%] [32m[1mLinking CXX executable lap_time_action_client[0m
+[ 19%] [32m[1mLinking CXX executable lap_time_action_server[0m
+[35m[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_typesupport_fastrtps_c[0m
+[ 27%] Built target cpp_turtle__rosidl_typesupport_cpp
+[35m[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_typesupport_introspection_c[0m
+[ 36%] Built target cpp_turtle__rosidl_typesupport_fastrtps_c
+[35m[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_typesupport_c[0m
+[ 38%] [32m[1mLinking CXX executable robot_driver[0m
+[35m[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_typesupport_fastrtps_cpp[0m
+[ 46%] Built target cpp_turtle__rosidl_typesupport_introspection_c
+[ 55%] Built target cpp_turtle__rosidl_typesupport_c
+[ 63%] Built target cpp_turtle__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_typesupport_introspection_cpp[0m
+[ 72%] Built target cpp_turtle__rosidl_typesupport_introspection_cpp
+[ 72%] Built target cpp_turtle
+[ 74%] Built target cpp_turtle__py
+[35m[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_generator_py[0m
+[ 80%] Built target cpp_turtle__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 85%] Built target cpp_turtle__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing cpp_turtle.egg-info/PKG-INFO
+writing dependency_links to cpp_turtle.egg-info/dependency_links.txt
+writing top-level names to cpp_turtle.egg-info/top_level.txt
+reading manifest file 'cpp_turtle.egg-info/SOURCES.txt'
+writing manifest file 'cpp_turtle.egg-info/SOURCES.txt'
+[ 89%] Built target cpp_turtle__rosidl_typesupport_fastrtps_c__pyext
+[35m[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_typesupport_c__pyext[0m
+[ 89%] Built target ament_cmake_python_build_cpp_turtle_egg
+/usr/bin/ld: CMakeFiles/lap_time_action_server.dir/src/lap_time_action_server.cpp.o: in function `rclcpp_action::Server<cpp_turtle::action::MeasureLapTime>::Server(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeClockInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeLoggingInterface>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rcl_action_server_options_s const&, std::function<rclcpp_action::GoalResponse (std::array<unsigned char, 16ul> const&, std::shared_ptr<cpp_turtle::action::MeasureLapTime_Goal_<std::allocator<void> > const>)>, std::function<rclcpp_action::CancelResponse (std::shared_ptr<rclcpp_action::ServerGoalHandle<cpp_turtle::action::MeasureLapTime> >)>, std::function<void (std::shared_ptr<rclcpp_action::ServerGoalHandle<cpp_turtle::action::MeasureLapTime> >)>)':
+lap_time_action_server.cpp:(.text._ZN13rclcpp_action6ServerIN10cpp_turtle6action14MeasureLapTimeEEC2ESt10shared_ptrIN6rclcpp15node_interfaces17NodeBaseInterfaceEES5_INS7_18NodeClockInterfaceEES5_INS7_20NodeLoggingInterfaceEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK27rcl_action_server_options_sSt8functionIFNS_12GoalResponseERKSt5arrayIhLm16EES5_IKNS2_20MeasureLapTime_Goal_ISaIvEEEEEESP_IFNS_14CancelResponseES5_INS_16ServerGoalHandleIS3_EEEEESP_IFvS15_EE[_ZN13rclcpp_action6ServerIN10cpp_turtle6action14MeasureLapTimeEEC5ESt10shared_ptrIN6rclcpp15node_interfaces17NodeBaseInterfaceEES5_INS7_18NodeClockInterfaceEES5_INS7_20NodeLoggingInterfaceEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK27rcl_action_server_options_sSt8functionIFNS_12GoalResponseERKSt5arrayIhLm16EES5_IKNS2_20MeasureLapTime_Goal_ISaIvEEEEEESP_IFNS_14CancelResponseES5_INS_16ServerGoalHandleIS3_EEEEESP_IFvS15_EE]+0x5f): undefined reference to `rosidl_action_type_support_t const* rosidl_typesupport_cpp::get_action_type_support_handle<cpp_turtle::action::MeasureLapTime>()'
+/usr/bin/ld: CMakeFiles/lap_time_action_client.dir/src/lap_time_action_client.cpp.o: in function `rclcpp_action::Client<cpp_turtle::action::MeasureLapTime>::Client(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeGraphInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeLoggingInterface>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rcl_action_client_options_s const&)':
+lap_time_action_client.cpp:(.text._ZN13rclcpp_action6ClientIN10cpp_turtle6action14MeasureLapTimeEEC2ESt10shared_ptrIN6rclcpp15node_interfaces17NodeBaseInterfaceEES5_INS7_18NodeGraphInterfaceEES5_INS7_20NodeLoggingInterfaceEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK27rcl_action_client_options_s[_ZN13rclcpp_action6ClientIN10cpp_turtle6action14MeasureLapTimeEEC5ESt10shared_ptrIN6rclcpp15node_interfaces17NodeBaseInterfaceEES5_INS7_18NodeGraphInterfaceEES5_INS7_20NodeLoggingInterfaceEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK27rcl_action_client_options_s]+0x3b): undefined reference to `rosidl_action_type_support_t const* rosidl_typesupport_cpp::get_action_type_support_handle<cpp_turtle::action::MeasureLapTime>()'
+[ 93%] Built target cpp_turtle__rosidl_typesupport_c__pyext
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/lap_time_action_server.dir/build.make:200: lap_time_action_server] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/lap_time_action_server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/lap_time_action_client.dir/build.make:184: lap_time_action_client] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:624: CMakeFiles/lap_time_action_client.dir/all] Error 2
+[ 95%] Built target robot_driver
+gmake: *** [Makefile:146: all] Error 2
