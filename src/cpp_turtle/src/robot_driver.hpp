@@ -17,6 +17,8 @@ private:
     void find_wall_logic(const sensor_msgs::msg::LaserScan::SharedPtr msg, geometry_msgs::msg::Twist &twist);
     void follow_wall_logic(const sensor_msgs::msg::LaserScan::SharedPtr msg, geometry_msgs::msg::Twist &twist);
     void find_wall_service_callback();
+    float getFrontRegion(const sensor_msgs::msg::LaserScan::SharedPtr msg);
+    float getRightRegion(const sensor_msgs::msg::LaserScan::SharedPtr msg);
 
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
     rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr subscription_;
@@ -28,6 +30,7 @@ private:
     float distance_to_wall_;
     float wall_distance_tolerance_;
     float distance_threshold_;
+    float find_wall_distance;
 };
 
 #endif  // ROBOT_DRIVER_HPP_

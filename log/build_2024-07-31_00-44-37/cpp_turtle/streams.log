@@ -1,0 +1,39 @@
+[0.020s] Invoking command in '/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle -- -j6 -l6
+[0.204s] [  4%] Built target initNode
+[0.257s] [  4%] Built target ament_cmake_python_copy_cpp_turtle
+[0.258s] [ 12%] Built target cpp_turtle__rosidl_generator_c
+[0.318s] [ 14%] Built target cpp_turtle__cpp
+[0.371s] [ 23%] Built target cpp_turtle__rosidl_typesupport_fastrtps_c
+[0.382s] [ 31%] Built target cpp_turtle__rosidl_typesupport_c
+[0.413s] [ 40%] Built target cpp_turtle__rosidl_typesupport_introspection_c
+[0.480s] [ 48%] Built target cpp_turtle__rosidl_typesupport_cpp
+[0.480s] [ 57%] Built target cpp_turtle__rosidl_typesupport_introspection_cpp
+[0.493s] [ 65%] Built target cpp_turtle__rosidl_typesupport_fastrtps_cpp
+[0.566s] [35m[1mConsolidate compiler generated dependencies of target robot_driver[0m
+[0.636s] [ 70%] Built target lap_time_action_server
+[0.639s] [ 74%] Built target lap_time_action_client
+[0.669s] [ 76%] [32mBuilding CXX object CMakeFiles/robot_driver.dir/src/robot_driver.cpp.o[0m
+[0.732s] [ 76%] Built target cpp_turtle
+[0.843s] [ 78%] Built target cpp_turtle__py
+[0.928s] [ 85%] Built target cpp_turtle__rosidl_generator_py
+[1.136s] [ 89%] Built target cpp_turtle__rosidl_typesupport_fastrtps_c__pyext
+[1.138s] running egg_info
+[1.141s] writing cpp_turtle.egg-info/PKG-INFO
+[1.143s] writing dependency_links to cpp_turtle.egg-info/dependency_links.txt
+[1.145s] writing top-level names to cpp_turtle.egg-info/top_level.txt
+[1.152s] [ 93%] Built target cpp_turtle__rosidl_typesupport_introspection_c__pyext
+[1.182s] reading manifest file 'cpp_turtle.egg-info/SOURCES.txt'
+[1.183s] writing manifest file 'cpp_turtle.egg-info/SOURCES.txt'
+[1.183s] [ 97%] Built target cpp_turtle__rosidl_typesupport_c__pyext
+[1.322s] [ 97%] Built target ament_cmake_python_build_cpp_turtle_egg
+[6.479s] [01m[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/robot_driver.cpp:[m[K In member function ‘[01m[Kvoid RobotDriver::find_wall_logic(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr, geometry_msgs::msg::Twist&)[m[K’:
+[6.479s] [01m[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/robot_driver.cpp:101:11:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kfloat front_region[m[K’
+[6.479s]   101 |     float [01;31m[Kfront_region[m[K = *std::min_element(ranges.end() + start_index, ranges.begin() - end_index);
+[6.480s]       |           [01;31m[K^~~~~~~~~~~~[m[K
+[6.480s] [01m[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/robot_driver.cpp:89:11:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat front_region[m[K’ previously declared here
+[6.480s]    89 |     float [01;36m[Kfront_region[m[K = *std::min_element(front_ranges.begin(), front_ranges.end());
+[6.480s]       |           [01;36m[K^~~~~~~~~~~~[m[K
+[12.020s] gmake[2]: *** [CMakeFiles/robot_driver.dir/build.make:76: CMakeFiles/robot_driver.dir/src/robot_driver.cpp.o] Error 1
+[12.021s] gmake[1]: *** [CMakeFiles/Makefile2:679: CMakeFiles/robot_driver.dir/all] Error 2
+[12.021s] gmake: *** [Makefile:146: all] Error 2
+[12.025s] Invoked command in '/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle -- -j6 -l6

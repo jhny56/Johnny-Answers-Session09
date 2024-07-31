@@ -1,0 +1,27 @@
+[  4%] Built target initNode
+[  4%] Built target ament_cmake_python_copy_cpp_turtle
+[ 12%] Built target cpp_turtle__rosidl_generator_c
+[ 14%] Built target cpp_turtle__cpp
+[ 23%] Built target cpp_turtle__rosidl_typesupport_fastrtps_c
+[ 31%] Built target cpp_turtle__rosidl_typesupport_c
+[ 40%] Built target cpp_turtle__rosidl_typesupport_introspection_c
+[ 48%] Built target cpp_turtle__rosidl_typesupport_cpp
+[ 57%] Built target cpp_turtle__rosidl_typesupport_introspection_cpp
+[ 65%] Built target cpp_turtle__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target robot_driver[0m
+[ 70%] Built target lap_time_action_server
+[ 74%] Built target lap_time_action_client
+[ 76%] [32mBuilding CXX object CMakeFiles/robot_driver.dir/src/robot_driver.cpp.o[0m
+[ 76%] Built target cpp_turtle
+[ 78%] Built target cpp_turtle__py
+[ 85%] Built target cpp_turtle__rosidl_generator_py
+[ 89%] Built target cpp_turtle__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing cpp_turtle.egg-info/PKG-INFO
+writing dependency_links to cpp_turtle.egg-info/dependency_links.txt
+writing top-level names to cpp_turtle.egg-info/top_level.txt
+[ 93%] Built target cpp_turtle__rosidl_typesupport_introspection_c__pyext
+reading manifest file 'cpp_turtle.egg-info/SOURCES.txt'
+writing manifest file 'cpp_turtle.egg-info/SOURCES.txt'
+[ 97%] Built target cpp_turtle__rosidl_typesupport_c__pyext
+[ 97%] Built target ament_cmake_python_build_cpp_turtle_egg

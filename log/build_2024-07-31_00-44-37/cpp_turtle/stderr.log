@@ -1,0 +1,10 @@
+[01m[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/robot_driver.cpp:[m[K In member function ‘[01m[Kvoid RobotDriver::find_wall_logic(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr, geometry_msgs::msg::Twist&)[m[K’:
+[01m[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/robot_driver.cpp:101:11:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kfloat front_region[m[K’
+  101 |     float [01;31m[Kfront_region[m[K = *std::min_element(ranges.end() + start_index, ranges.begin() - end_index);
+      |           [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/robot_driver.cpp:89:11:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat front_region[m[K’ previously declared here
+   89 |     float [01;36m[Kfront_region[m[K = *std::min_element(front_ranges.begin(), front_ranges.end());
+      |           [01;36m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_driver.dir/build.make:76: CMakeFiles/robot_driver.dir/src/robot_driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:679: CMakeFiles/robot_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,7 @@
+[01m[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/robot_driver.cpp:[m[K In member function ‘[01m[Kfloat RobotDriver::getFrontRegion(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/src/robot_driver.cpp:82:9:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kfloat[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   82 |         [01;31m[Kreturn[m[K;
+      |         [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_driver.dir/build.make:76: CMakeFiles/robot_driver.dir/src/robot_driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:679: CMakeFiles/robot_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
