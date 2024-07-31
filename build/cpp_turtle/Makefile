@@ -445,6 +445,19 @@ robot_driver/fast:
 .PHONY : robot_driver/fast
 
 #=============================================================================
+# Target rules for targets named wall_finder
+
+# Build rule for target.
+wall_finder: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wall_finder
+.PHONY : wall_finder
+
+# fast build rule for target.
+wall_finder/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wall_finder.dir/build.make CMakeFiles/wall_finder.dir/build
+.PHONY : wall_finder/fast
+
+#=============================================================================
 # Target rules for targets named cpp_turtle__py
 
 # Build rule for target.
@@ -1009,6 +1022,30 @@ src/robot_driver.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_driver.dir/build.make CMakeFiles/robot_driver.dir/src/robot_driver.cpp.s
 .PHONY : src/robot_driver.cpp.s
 
+src/wall_finder.o: src/wall_finder.cpp.o
+.PHONY : src/wall_finder.o
+
+# target to build an object file
+src/wall_finder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wall_finder.dir/build.make CMakeFiles/wall_finder.dir/src/wall_finder.cpp.o
+.PHONY : src/wall_finder.cpp.o
+
+src/wall_finder.i: src/wall_finder.cpp.i
+.PHONY : src/wall_finder.i
+
+# target to preprocess a source file
+src/wall_finder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wall_finder.dir/build.make CMakeFiles/wall_finder.dir/src/wall_finder.cpp.i
+.PHONY : src/wall_finder.cpp.i
+
+src/wall_finder.s: src/wall_finder.cpp.s
+.PHONY : src/wall_finder.s
+
+# target to generate assembly for a file
+src/wall_finder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wall_finder.dir/build.make CMakeFiles/wall_finder.dir/src/wall_finder.cpp.s
+.PHONY : src/wall_finder.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1044,6 +1081,7 @@ help:
 	@echo "... lap_time_action_client"
 	@echo "... lap_time_action_server"
 	@echo "... robot_driver"
+	@echo "... wall_finder"
 	@echo "... rosidl_generator_c/cpp_turtle/action/detail/measure_lap_time__functions.o"
 	@echo "... rosidl_generator_c/cpp_turtle/action/detail/measure_lap_time__functions.i"
 	@echo "... rosidl_generator_c/cpp_turtle/action/detail/measure_lap_time__functions.s"
@@ -1113,6 +1151,9 @@ help:
 	@echo "... src/robot_driver.o"
 	@echo "... src/robot_driver.i"
 	@echo "... src/robot_driver.s"
+	@echo "... src/wall_finder.o"
+	@echo "... src/wall_finder.i"
+	@echo "... src/wall_finder.s"
 .PHONY : help
 
 

@@ -27,4 +27,10 @@ def generate_launch_description():
             name='init_node',
             output='screen'
         ),
+        Node(
+            package='cpp_turtle',
+            executable='wall_finder',
+            name='wall_finder',
+            output='screen'
+        ),
     ])

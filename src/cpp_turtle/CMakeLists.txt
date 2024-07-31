@@ -74,6 +74,8 @@ include_directories(${CMAKE_CURRENT_BINARY_DIR}/rosidl_generator_cpp)
 add_executable(lap_time_action_client src/lap_time_action_client.cpp)
 add_executable(lap_time_action_server src/lap_time_action_server.cpp)
 add_executable(robot_driver src/robot_driver.cpp)
+add_executable(wall_finder src/wall_finder.cpp)
+
 
 # Link against the necessary libraries
 ament_target_dependencies(lap_time_action_client
@@ -103,12 +105,23 @@ ament_target_dependencies(robot_driver
   rosidl_default_runtime
 )
 
+ament_target_dependencies(wall_finder
+  rclcpp
+  geometry_msgs
+  sensor_msgs
+  std_msgs
+  rosidl_typesupport_cpp
+  rosidl_default_runtime
+)
+
 # Get typesupport targets and link them
 rosidl_get_typesupport_target(cpp_turtle__rosidl_typesupport_cpp ${PROJECT_NAME} rosidl_typesupport_cpp)
 
 target_link_libraries(lap_time_action_client ${cpp_turtle__rosidl_typesupport_cpp})
 target_link_libraries(lap_time_action_server ${cpp_turtle__rosidl_typesupport_cpp})
 target_link_libraries(robot_driver ${cpp_turtle__rosidl_typesupport_cpp})
+target_link_libraries(wall_finder ${cpp_turtle__rosidl_typesupport_cpp})
+
 
 
 # Install the executables
@@ -116,6 +129,7 @@ install(TARGETS
   lap_time_action_client
   lap_time_action_server
   robot_driver
+  wall_finder
   DESTINATION lib/${PROJECT_NAME})
 
 # Install launch files

@@ -76,6 +76,7 @@
 /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/cpp_turtle/lap_time_action_client
 /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/cpp_turtle/lap_time_action_server
 /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/cpp_turtle/robot_driver
+/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/cpp_turtle/wall_finder
 /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/launch/cpp_turtle_launch.py
 /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/ament_index/resource_index/package_run_dependencies/cpp_turtle
 /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/ament_index/resource_index/parent_prefix_path/cpp_turtle

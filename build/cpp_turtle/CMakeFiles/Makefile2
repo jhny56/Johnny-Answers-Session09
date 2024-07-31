@@ -80,6 +80,7 @@ all: CMakeFiles/cpp_turtle__rosidl_typesupport_c__pyext.dir/all
 all: CMakeFiles/lap_time_action_client.dir/all
 all: CMakeFiles/lap_time_action_server.dir/all
 all: CMakeFiles/robot_driver.dir/all
+all: CMakeFiles/wall_finder.dir/all
 all: cpp_turtle__py/all
 .PHONY : all
 
@@ -109,6 +110,7 @@ clean: CMakeFiles/cpp_turtle__rosidl_typesupport_c__pyext.dir/clean
 clean: CMakeFiles/lap_time_action_client.dir/clean
 clean: CMakeFiles/lap_time_action_server.dir/clean
 clean: CMakeFiles/robot_driver.dir/clean
+clean: CMakeFiles/wall_finder.dir/clean
 clean: cpp_turtle__py/clean
 .PHONY : clean
 
@@ -695,6 +697,33 @@ robot_driver: CMakeFiles/robot_driver.dir/rule
 CMakeFiles/robot_driver.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_driver.dir/build.make CMakeFiles/robot_driver.dir/clean
 .PHONY : CMakeFiles/robot_driver.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/wall_finder.dir
+
+# All Build rule for target.
+CMakeFiles/wall_finder.dir/all: CMakeFiles/cpp_turtle__cpp.dir/all
+CMakeFiles/wall_finder.dir/all: CMakeFiles/cpp_turtle__rosidl_typesupport_cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wall_finder.dir/build.make CMakeFiles/wall_finder.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wall_finder.dir/build.make CMakeFiles/wall_finder.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle/CMakeFiles --progress-num=48,49 "Built target wall_finder"
+.PHONY : CMakeFiles/wall_finder.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/wall_finder.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle/CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/wall_finder.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle/CMakeFiles 0
+.PHONY : CMakeFiles/wall_finder.dir/rule
+
+# Convenience name for target.
+wall_finder: CMakeFiles/wall_finder.dir/rule
+.PHONY : wall_finder
+
+# clean rule for target.
+CMakeFiles/wall_finder.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wall_finder.dir/build.make CMakeFiles/wall_finder.dir/clean
+.PHONY : CMakeFiles/wall_finder.dir/clean
 
 #=============================================================================
 # Target rules for target cpp_turtle__py/CMakeFiles/cpp_turtle__py.dir

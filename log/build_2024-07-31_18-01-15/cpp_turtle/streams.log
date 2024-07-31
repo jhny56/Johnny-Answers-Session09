@@ -1,0 +1,250 @@
+[0.047s] Invoking command in '/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle -- -j6 -l6
+[0.250s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.588s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.740s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.751s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.766s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.884s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.667s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.062s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.565s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.626s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.683s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.683s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.683s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.732s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.921s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.930s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.249s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.874s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[3.960s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.087s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.286s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.552s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.581s] -- Configured cppcheck include dirs: /home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/include;$<BUILD_INTERFACE:/home/robot/Desktop/Session09/Johnny-Answers-Session09/src/cpp_turtle/include>
+[4.582s] -- Configured cppcheck exclude dirs and/or files: 
+[4.583s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.587s] -- Added test 'lint_cmake' to check CMake code style
+[4.589s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.593s] -- Added test 'uncrustify' to check C / C++ code style
+[4.593s] -- Configured uncrustify additional arguments: 
+[4.595s] -- Added test 'xmllint' to check XML markup files
+[4.629s] -- Configuring done
+[4.977s] -- Generating done
+[5.002s] -- Build files have been written to: /home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle
+[5.076s] [35m[1mConsolidate compiler generated dependencies of target initNode[0m
+[5.117s] [35m[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_generator_c[0m
+[5.139s] [  2%] Built target cpp_turtle__cpp
+[5.165s] [ 10%] Built target cpp_turtle__rosidl_generator_c
+[5.165s] [ 14%] Built target initNode
+[5.201s] [35m[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_typesupport_cpp[0m
+[5.201s] [35m[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_typesupport_introspection_cpp[0m
+[5.201s] [35m[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_typesupport_fastrtps_cpp[0m
+[5.246s] [ 14%] Built target ament_cmake_python_copy_cpp_turtle
+[5.253s] [35m[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_typesupport_introspection_c[0m
+[5.272s] [ 22%] Built target cpp_turtle__rosidl_typesupport_cpp
+[5.273s] [ 30%] Built target cpp_turtle__rosidl_typesupport_introspection_cpp
+[5.293s] [35m[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_typesupport_fastrtps_c[0m
+[5.307s] [ 38%] Built target cpp_turtle__rosidl_typesupport_fastrtps_cpp
+[5.307s] [35m[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_typesupport_c[0m
+[5.331s] [ 46%] Built target cpp_turtle__rosidl_typesupport_introspection_c
+[5.357s] [35m[1mConsolidate compiler generated dependencies of target lap_time_action_client[0m
+[5.358s] [35m[1mConsolidate compiler generated dependencies of target lap_time_action_server[0m
+[5.410s] [ 55%] Built target cpp_turtle__rosidl_typesupport_c
+[5.410s] [ 63%] Built target cpp_turtle__rosidl_typesupport_fastrtps_c
+[5.450s] [ 67%] Built target lap_time_action_client
+[5.452s] [ 71%] Built target lap_time_action_server
+[5.463s] [35m[1mConsolidate compiler generated dependencies of target robot_driver[0m
+[5.526s] [ 71%] Built target cpp_turtle
+[5.545s] [ 73%] [32mBuilding CXX object CMakeFiles/wall_finder.dir/src/wall_finder.cpp.o[0m
+[5.546s] [ 75%] [32mBuilding CXX object CMakeFiles/robot_driver.dir/src/robot_driver.cpp.o[0m
+[5.620s] [ 77%] Built target cpp_turtle__py
+[5.705s] [35m[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_generator_py[0m
+[5.916s] [ 83%] Built target cpp_turtle__rosidl_generator_py
+[5.964s] [35m[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.031s] [ 87%] Built target cpp_turtle__rosidl_typesupport_fastrtps_c__pyext
+[6.044s] [35m[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_typesupport_c__pyext[0m
+[6.052s] [35m[1mConsolidate compiler generated dependencies of target cpp_turtle__rosidl_typesupport_introspection_c__pyext[0m
+[6.173s] [ 91%] Built target cpp_turtle__rosidl_typesupport_c__pyext
+[6.194s] [ 95%] Built target cpp_turtle__rosidl_typesupport_introspection_c__pyext
+[6.276s] running egg_info
+[6.276s] writing cpp_turtle.egg-info/PKG-INFO
+[6.276s] writing dependency_links to cpp_turtle.egg-info/dependency_links.txt
+[6.277s] writing top-level names to cpp_turtle.egg-info/top_level.txt
+[6.319s] reading manifest file 'cpp_turtle.egg-info/SOURCES.txt'
+[6.337s] writing manifest file 'cpp_turtle.egg-info/SOURCES.txt'
+[6.386s] [ 95%] Built target ament_cmake_python_build_cpp_turtle_egg
+[23.403s] [ 97%] [32m[1mLinking CXX executable wall_finder[0m
+[24.858s] [ 97%] Built target wall_finder
+[27.866s] [100%] [32m[1mLinking CXX executable robot_driver[0m
+[29.050s] [100%] Built target robot_driver
+[29.077s] Invoked command in '/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle -- -j6 -l6
+[29.558s] Invoking command in '/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle
+[29.580s] -- Install configuration: ""
+[29.582s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/cpp_turtle/initNode
+[29.582s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/ament_index/resource_index/rosidl_interfaces/cpp_turtle
+[29.583s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle
+[29.583s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/msg
+[29.583s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/msg/rosidl_generator_c__visibility_control.h
+[29.584s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action
+[29.584s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/measure_lap_time.h
+[29.585s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail
+[29.585s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__functions.h
+[29.585s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__struct.h
+[29.586s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__type_support.h
+[29.586s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__functions.c
+[29.586s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv
+[29.586s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/find_wall.h
+[29.587s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail
+[29.587s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__functions.c
+[29.587s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__type_support.h
+[29.587s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__functions.h
+[29.587s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__struct.h
+[29.588s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/environment/library_path.sh
+[29.588s] -- Installing: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/environment/library_path.dsv
+[29.591s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/libcpp_turtle__rosidl_generator_c.so
+[29.591s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle
+[29.591s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/msg
+[29.591s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[29.591s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action
+[29.591s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail
+[29.592s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__rosidl_typesupport_fastrtps_c.h
+[29.592s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv
+[29.592s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail
+[29.592s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__rosidl_typesupport_fastrtps_c.h
+[29.601s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/libcpp_turtle__rosidl_typesupport_fastrtps_c.so
+[29.603s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle
+[29.603s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/msg
+[29.603s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[29.603s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action
+[29.604s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail
+[29.604s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__type_support.c
+[29.604s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__rosidl_typesupport_introspection_c.h
+[29.604s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv
+[29.604s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail
+[29.604s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__rosidl_typesupport_introspection_c.h
+[29.604s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__type_support.c
+[29.610s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/libcpp_turtle__rosidl_typesupport_introspection_c.so
+[29.618s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/libcpp_turtle__rosidl_typesupport_c.so
+[29.618s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle
+[29.619s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action
+[29.619s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail
+[29.619s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__traits.hpp
+[29.619s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__builder.hpp
+[29.619s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__struct.hpp
+[29.620s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/measure_lap_time.hpp
+[29.620s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv
+[29.620s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail
+[29.621s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__builder.hpp
+[29.621s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__struct.hpp
+[29.621s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__traits.hpp
+[29.621s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/find_wall.hpp
+[29.621s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle
+[29.621s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/msg
+[29.621s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[29.622s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action
+[29.622s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail
+[29.622s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__rosidl_typesupport_fastrtps_cpp.hpp
+[29.622s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/dds_fastrtps
+[29.622s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv
+[29.622s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail
+[29.622s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__rosidl_typesupport_fastrtps_cpp.hpp
+[29.623s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/dds_fastrtps
+[29.627s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/libcpp_turtle__rosidl_typesupport_fastrtps_cpp.so
+[29.627s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle
+[29.627s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action
+[29.627s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail
+[29.627s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__rosidl_typesupport_introspection_cpp.hpp
+[29.628s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__type_support.cpp
+[29.628s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv
+[29.628s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail
+[29.628s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__rosidl_typesupport_introspection_cpp.hpp
+[29.628s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__type_support.cpp
+[29.633s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/libcpp_turtle__rosidl_typesupport_introspection_cpp.so
+[29.641s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/libcpp_turtle__rosidl_typesupport_cpp.so
+[29.642s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/environment/pythonpath.sh
+[29.642s] -- Installing: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/environment/pythonpath.dsv
+[29.642s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle-0.0.0-py3.10.egg-info
+[29.643s] -- Installing: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle-0.0.0-py3.10.egg-info/SOURCES.txt
+[29.643s] -- Installing: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle-0.0.0-py3.10.egg-info/PKG-INFO
+[29.644s] -- Installing: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle-0.0.0-py3.10.egg-info/dependency_links.txt
+[29.644s] -- Installing: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle-0.0.0-py3.10.egg-info/top_level.txt
+[29.645s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle
+[29.645s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/cpp_turtle_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[29.645s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/cpp_turtle_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[29.645s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/cpp_turtle_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[29.646s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/_cpp_turtle_s.ep.rosidl_typesupport_fastrtps_c.c
+[29.646s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/libcpp_turtle__rosidl_generator_py.so
+[29.646s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/_cpp_turtle_s.ep.rosidl_typesupport_introspection_c.c
+[29.646s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/action
+[29.646s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/action/_measure_lap_time_s.c
+[29.647s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/action/_measure_lap_time.py
+[29.647s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/action/__init__.py
+[29.647s] -- Installing: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/__init__.py
+[29.647s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/srv
+[29.647s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/srv/_find_wall.py
+[29.647s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/srv/_find_wall_s.c
+[29.647s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/srv/__init__.py
+[29.648s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/_cpp_turtle_s.ep.rosidl_typesupport_c.c
+[29.724s] Listing '/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle'...
+[29.724s] Compiling '/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/__init__.py'...
+[29.724s] Listing '/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/action'...
+[29.725s] Listing '/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/srv'...
+[29.737s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/cpp_turtle_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[29.741s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/cpp_turtle_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[29.746s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/cpp_turtle_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[29.749s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/libcpp_turtle__rosidl_generator_py.so
+[29.750s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/action/MeasureLapTime.idl
+[29.755s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/srv/FindWall.idl
+[29.755s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/action/MeasureLapTime.action
+[29.756s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/srv/FindWall.srv
+[29.756s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/srv/FindWall_Request.msg
+[29.756s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/srv/FindWall_Response.msg
+[29.759s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/cpp_turtle/lap_time_action_client
+[29.765s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/cpp_turtle/lap_time_action_server
+[29.770s] -- Installing: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/cpp_turtle/robot_driver
+[29.798s] -- Set runtime path of "/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/cpp_turtle/robot_driver" to ""
+[29.798s] -- Installing: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/cpp_turtle/wall_finder
+[29.819s] -- Set runtime path of "/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/cpp_turtle/wall_finder" to ""
+[29.819s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/launch
+[29.819s] -- Installing: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/launch/cpp_turtle_launch.py
+[29.820s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/ament_index/resource_index/package_run_dependencies/cpp_turtle
+[29.820s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/ament_index/resource_index/parent_prefix_path/cpp_turtle
+[29.820s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/environment/ament_prefix_path.sh
+[29.821s] -- Installing: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/environment/ament_prefix_path.dsv
+[29.821s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/environment/path.sh
+[29.821s] -- Installing: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/environment/path.dsv
+[29.821s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/local_setup.bash
+[29.822s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/local_setup.sh
+[29.822s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/local_setup.zsh
+[29.822s] -- Installing: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/local_setup.dsv
+[29.822s] -- Installing: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/package.dsv
+[29.822s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/ament_index/resource_index/packages/cpp_turtle
+[29.824s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/export_cpp_turtle__rosidl_generator_cExport.cmake
+[29.825s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/export_cpp_turtle__rosidl_generator_cExport-noconfig.cmake
+[29.825s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/export_cpp_turtle__rosidl_typesupport_fastrtps_cExport.cmake
+[29.825s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/export_cpp_turtle__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[29.829s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtle__rosidl_typesupport_introspection_cExport.cmake
+[29.829s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtle__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[29.834s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtle__rosidl_typesupport_cExport.cmake
+[29.834s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtle__rosidl_typesupport_cExport-noconfig.cmake
+[29.835s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/export_cpp_turtle__rosidl_generator_cppExport.cmake
+[29.836s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/export_cpp_turtle__rosidl_typesupport_fastrtps_cppExport.cmake
+[29.836s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/export_cpp_turtle__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[29.837s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtle__rosidl_typesupport_introspection_cppExport.cmake
+[29.838s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtle__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[29.839s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtle__rosidl_typesupport_cppExport.cmake
+[29.839s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtle__rosidl_typesupport_cppExport-noconfig.cmake
+[29.840s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/export_cpp_turtle__rosidl_generator_pyExport.cmake
+[29.840s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/export_cpp_turtle__rosidl_generator_pyExport-noconfig.cmake
+[29.840s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/rosidl_cmake-extras.cmake
+[29.840s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/ament_cmake_export_dependencies-extras.cmake
+[29.841s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/ament_cmake_export_include_directories-extras.cmake
+[29.841s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/ament_cmake_export_libraries-extras.cmake
+[29.841s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/ament_cmake_export_targets-extras.cmake
+[29.842s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[29.842s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[29.842s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtleConfig.cmake
+[29.842s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtleConfig-version.cmake
+[29.842s] -- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/package.xml
+[29.847s] Invoked command in '/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle

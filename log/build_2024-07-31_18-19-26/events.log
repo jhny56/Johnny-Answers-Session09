@@ -1,0 +1,479 @@
+[0.000000] (-) TimerEvent: {}
+[0.000264] (cpp_turtle) JobQueued: {'identifier': 'cpp_turtle', 'dependencies': OrderedDict()}
+[0.000381] (cpp_turtle) JobStarted: {'identifier': 'cpp_turtle'}
+[0.024537] (cpp_turtle) JobProgress: {'identifier': 'cpp_turtle', 'progress': 'cmake'}
+[0.026580] (cpp_turtle) JobProgress: {'identifier': 'cpp_turtle', 'progress': 'build'}
+[0.028487] (cpp_turtle) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle', '--', '-j6', '-l6'], 'cwd': '/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'robot'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2706'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8287d9735c2935519f9fafc266aa4495'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/Desktop/Session09/Johnny-Answers-Session09/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot-virtual-machine:@/tmp/.ICE-unix/2706,unix/robot-virtual-machine:/tmp/.ICE-unix/2706'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/20e71b5d_2df1_4e43_a325_db16185fe714'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Q81YR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.305'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8287d9735c2935519f9fafc266aa4495'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle:/opt/ros/humble')]), 'shell': False}
+[0.096364] (-) TimerEvent: {}
+[0.196814] (-) TimerEvent: {}
+[0.217431] (cpp_turtle) StdoutLine: {'line': b'[  2%] Built target cpp_turtle__cpp\n'}
+[0.217803] (cpp_turtle) StdoutLine: {'line': b'[ 10%] Built target cpp_turtle__rosidl_generator_c\n'}
+[0.268116] (cpp_turtle) StdoutLine: {'line': b'[ 14%] Built target initNode\n'}
+[0.268475] (cpp_turtle) StdoutLine: {'line': b'[ 14%] Built target ament_cmake_python_copy_cpp_turtle\n'}
+[0.300470] (-) TimerEvent: {}
+[0.327018] (cpp_turtle) StdoutLine: {'line': b'[ 22%] Built target cpp_turtle__rosidl_typesupport_cpp\n'}
+[0.367543] (cpp_turtle) StdoutLine: {'line': b'[ 30%] Built target cpp_turtle__rosidl_typesupport_fastrtps_c\n'}
+[0.380114] (cpp_turtle) StdoutLine: {'line': b'[ 38%] Built target cpp_turtle__rosidl_typesupport_introspection_c\n'}
+[0.416294] (-) TimerEvent: {}
+[0.417968] (cpp_turtle) StdoutLine: {'line': b'[ 46%] Built target cpp_turtle__rosidl_typesupport_c\n'}
+[0.418189] (cpp_turtle) StdoutLine: {'line': b'[ 55%] Built target cpp_turtle__rosidl_typesupport_introspection_cpp\n'}
+[0.418367] (cpp_turtle) StdoutLine: {'line': b'[ 63%] Built target cpp_turtle__rosidl_typesupport_fastrtps_cpp\n'}
+[0.451337] (cpp_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_driver\x1b[0m\n'}
+[0.500912] (cpp_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wall_finder\x1b[0m\n'}
+[0.516418] (-) TimerEvent: {}
+[0.542013] (cpp_turtle) StdoutLine: {'line': b'[ 67%] Built target lap_time_action_server\n'}
+[0.565758] (cpp_turtle) StdoutLine: {'line': b'[ 71%] Built target lap_time_action_client\n'}
+[0.601003] (cpp_turtle) StdoutLine: {'line': b'[ 71%] Built target cpp_turtle\n'}
+[0.610072] (cpp_turtle) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/robot_driver.dir/src/robot_driver.cpp.o\x1b[0m\n'}
+[0.616748] (-) TimerEvent: {}
+[0.696194] (cpp_turtle) StdoutLine: {'line': b'[ 77%] Built target wall_finder\n'}
+[0.717047] (-) TimerEvent: {}
+[0.728589] (cpp_turtle) StdoutLine: {'line': b'[ 79%] Built target cpp_turtle__py\n'}
+[0.817171] (-) TimerEvent: {}
+[0.881481] (cpp_turtle) StdoutLine: {'line': b'[ 85%] Built target cpp_turtle__rosidl_generator_py\n'}
+[0.917406] (-) TimerEvent: {}
+[1.018312] (-) TimerEvent: {}
+[1.024361] (cpp_turtle) StdoutLine: {'line': b'[ 89%] Built target cpp_turtle__rosidl_typesupport_c__pyext\n'}
+[1.111447] (cpp_turtle) StdoutLine: {'line': b'[ 93%] Built target cpp_turtle__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.118432] (-) TimerEvent: {}
+[1.135317] (cpp_turtle) StdoutLine: {'line': b'[ 97%] Built target cpp_turtle__rosidl_typesupport_introspection_c__pyext\n'}
+[1.218569] (-) TimerEvent: {}
+[1.294533] (cpp_turtle) StdoutLine: {'line': b'running egg_info\n'}
+[1.296196] (cpp_turtle) StdoutLine: {'line': b'writing cpp_turtle.egg-info/PKG-INFO\n'}
+[1.307449] (cpp_turtle) StdoutLine: {'line': b'writing dependency_links to cpp_turtle.egg-info/dependency_links.txt\n'}
+[1.307760] (cpp_turtle) StdoutLine: {'line': b'writing top-level names to cpp_turtle.egg-info/top_level.txt\n'}
+[1.313062] (cpp_turtle) StdoutLine: {'line': b"reading manifest file 'cpp_turtle.egg-info/SOURCES.txt'\n"}
+[1.316107] (cpp_turtle) StdoutLine: {'line': b"writing manifest file 'cpp_turtle.egg-info/SOURCES.txt'\n"}
+[1.318670] (-) TimerEvent: {}
+[1.383894] (cpp_turtle) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_cpp_turtle_egg\n'}
+[1.418821] (-) TimerEvent: {}
+[1.524619] (-) TimerEvent: {}
+[1.629775] (-) TimerEvent: {}
+[1.730803] (-) TimerEvent: {}
+[1.834053] (-) TimerEvent: {}
+[1.935071] (-) TimerEvent: {}
+[2.036469] (-) TimerEvent: {}
+[2.137205] (-) TimerEvent: {}
+[2.238052] (-) TimerEvent: {}
+[2.339584] (-) TimerEvent: {}
+[2.440546] (-) TimerEvent: {}
+[2.541164] (-) TimerEvent: {}
+[2.642142] (-) TimerEvent: {}
+[2.743033] (-) TimerEvent: {}
+[2.843884] (-) TimerEvent: {}
+[2.949239] (-) TimerEvent: {}
+[3.054601] (-) TimerEvent: {}
+[3.160519] (-) TimerEvent: {}
+[3.267981] (-) TimerEvent: {}
+[3.373732] (-) TimerEvent: {}
+[3.478661] (-) TimerEvent: {}
+[3.580262] (-) TimerEvent: {}
+[3.681667] (-) TimerEvent: {}
+[3.782303] (-) TimerEvent: {}
+[3.883178] (-) TimerEvent: {}
+[3.984118] (-) TimerEvent: {}
+[4.084780] (-) TimerEvent: {}
+[4.185389] (-) TimerEvent: {}
+[4.285948] (-) TimerEvent: {}
+[4.388403] (-) TimerEvent: {}
+[4.488982] (-) TimerEvent: {}
+[4.590633] (-) TimerEvent: {}
+[4.692250] (-) TimerEvent: {}
+[4.792881] (-) TimerEvent: {}
+[4.893705] (-) TimerEvent: {}
+[4.994245] (-) TimerEvent: {}
+[5.095082] (-) TimerEvent: {}
+[5.195935] (-) TimerEvent: {}
+[5.296717] (-) TimerEvent: {}
+[5.398217] (-) TimerEvent: {}
+[5.499445] (-) TimerEvent: {}
+[5.603125] (-) TimerEvent: {}
+[5.703865] (-) TimerEvent: {}
+[5.805016] (-) TimerEvent: {}
+[5.907527] (-) TimerEvent: {}
+[6.008626] (-) TimerEvent: {}
+[6.111865] (-) TimerEvent: {}
+[6.213339] (-) TimerEvent: {}
+[6.314342] (-) TimerEvent: {}
+[6.415015] (-) TimerEvent: {}
+[6.520265] (-) TimerEvent: {}
+[6.623077] (-) TimerEvent: {}
+[6.730143] (-) TimerEvent: {}
+[6.835558] (-) TimerEvent: {}
+[6.953149] (-) TimerEvent: {}
+[7.054408] (-) TimerEvent: {}
+[7.154899] (-) TimerEvent: {}
+[7.257777] (-) TimerEvent: {}
+[7.360267] (-) TimerEvent: {}
+[7.460860] (-) TimerEvent: {}
+[7.575938] (-) TimerEvent: {}
+[7.677701] (-) TimerEvent: {}
+[7.778494] (-) TimerEvent: {}
+[7.879412] (-) TimerEvent: {}
+[7.986643] (-) TimerEvent: {}
+[8.089655] (-) TimerEvent: {}
+[8.191743] (-) TimerEvent: {}
+[8.292445] (-) TimerEvent: {}
+[8.395168] (-) TimerEvent: {}
+[8.495621] (-) TimerEvent: {}
+[8.599887] (-) TimerEvent: {}
+[8.702664] (-) TimerEvent: {}
+[8.806266] (-) TimerEvent: {}
+[8.928698] (-) TimerEvent: {}
+[9.037087] (-) TimerEvent: {}
+[9.138545] (-) TimerEvent: {}
+[9.239302] (-) TimerEvent: {}
+[9.341249] (-) TimerEvent: {}
+[9.442065] (-) TimerEvent: {}
+[9.543058] (-) TimerEvent: {}
+[9.644108] (-) TimerEvent: {}
+[9.744609] (-) TimerEvent: {}
+[9.845240] (-) TimerEvent: {}
+[9.946014] (-) TimerEvent: {}
+[10.046557] (-) TimerEvent: {}
+[10.147019] (-) TimerEvent: {}
+[10.247722] (-) TimerEvent: {}
+[10.348203] (-) TimerEvent: {}
+[10.448804] (-) TimerEvent: {}
+[10.550384] (-) TimerEvent: {}
+[10.650898] (-) TimerEvent: {}
+[10.752272] (-) TimerEvent: {}
+[10.853006] (-) TimerEvent: {}
+[10.953804] (-) TimerEvent: {}
+[11.054738] (-) TimerEvent: {}
+[11.155308] (-) TimerEvent: {}
+[11.255927] (-) TimerEvent: {}
+[11.357869] (-) TimerEvent: {}
+[11.458598] (-) TimerEvent: {}
+[11.559252] (-) TimerEvent: {}
+[11.660730] (-) TimerEvent: {}
+[11.761343] (-) TimerEvent: {}
+[11.861838] (-) TimerEvent: {}
+[11.962528] (-) TimerEvent: {}
+[12.063122] (-) TimerEvent: {}
+[12.164004] (-) TimerEvent: {}
+[12.265817] (-) TimerEvent: {}
+[12.367139] (-) TimerEvent: {}
+[12.468459] (-) TimerEvent: {}
+[12.570715] (-) TimerEvent: {}
+[12.671955] (-) TimerEvent: {}
+[12.772843] (-) TimerEvent: {}
+[12.875047] (-) TimerEvent: {}
+[12.975792] (-) TimerEvent: {}
+[13.076797] (-) TimerEvent: {}
+[13.179159] (-) TimerEvent: {}
+[13.280036] (-) TimerEvent: {}
+[13.381071] (-) TimerEvent: {}
+[13.482166] (-) TimerEvent: {}
+[13.582961] (-) TimerEvent: {}
+[13.684357] (-) TimerEvent: {}
+[13.785276] (-) TimerEvent: {}
+[13.886790] (-) TimerEvent: {}
+[13.987364] (-) TimerEvent: {}
+[14.088429] (-) TimerEvent: {}
+[14.190434] (-) TimerEvent: {}
+[14.291101] (-) TimerEvent: {}
+[14.394400] (-) TimerEvent: {}
+[14.495318] (-) TimerEvent: {}
+[14.595879] (-) TimerEvent: {}
+[14.696704] (-) TimerEvent: {}
+[14.797292] (-) TimerEvent: {}
+[14.898049] (-) TimerEvent: {}
+[14.998967] (-) TimerEvent: {}
+[15.100491] (-) TimerEvent: {}
+[15.202345] (-) TimerEvent: {}
+[15.303929] (-) TimerEvent: {}
+[15.404754] (-) TimerEvent: {}
+[15.506669] (-) TimerEvent: {}
+[15.608123] (-) TimerEvent: {}
+[15.709364] (-) TimerEvent: {}
+[15.810734] (-) TimerEvent: {}
+[15.911703] (-) TimerEvent: {}
+[16.012820] (-) TimerEvent: {}
+[16.114069] (-) TimerEvent: {}
+[16.216263] (-) TimerEvent: {}
+[16.317727] (-) TimerEvent: {}
+[16.418946] (-) TimerEvent: {}
+[16.520111] (-) TimerEvent: {}
+[16.622109] (-) TimerEvent: {}
+[16.723021] (-) TimerEvent: {}
+[16.824776] (-) TimerEvent: {}
+[16.925441] (-) TimerEvent: {}
+[17.026198] (-) TimerEvent: {}
+[17.126690] (-) TimerEvent: {}
+[17.229179] (-) TimerEvent: {}
+[17.330085] (-) TimerEvent: {}
+[17.430671] (-) TimerEvent: {}
+[17.531143] (-) TimerEvent: {}
+[17.631867] (-) TimerEvent: {}
+[17.732528] (-) TimerEvent: {}
+[17.833125] (-) TimerEvent: {}
+[17.933862] (-) TimerEvent: {}
+[18.034914] (-) TimerEvent: {}
+[18.135581] (-) TimerEvent: {}
+[18.236925] (-) TimerEvent: {}
+[18.337577] (-) TimerEvent: {}
+[18.438099] (-) TimerEvent: {}
+[18.538582] (-) TimerEvent: {}
+[18.639270] (-) TimerEvent: {}
+[18.739948] (-) TimerEvent: {}
+[18.840662] (-) TimerEvent: {}
+[18.941848] (-) TimerEvent: {}
+[19.042542] (-) TimerEvent: {}
+[19.143114] (-) TimerEvent: {}
+[19.244469] (-) TimerEvent: {}
+[19.345183] (-) TimerEvent: {}
+[19.445965] (-) TimerEvent: {}
+[19.546656] (-) TimerEvent: {}
+[19.647281] (-) TimerEvent: {}
+[19.748116] (-) TimerEvent: {}
+[19.848701] (-) TimerEvent: {}
+[19.949486] (-) TimerEvent: {}
+[20.050360] (-) TimerEvent: {}
+[20.150907] (-) TimerEvent: {}
+[20.251715] (-) TimerEvent: {}
+[20.352564] (-) TimerEvent: {}
+[20.453132] (-) TimerEvent: {}
+[20.553675] (-) TimerEvent: {}
+[20.654483] (-) TimerEvent: {}
+[20.755179] (-) TimerEvent: {}
+[20.855866] (-) TimerEvent: {}
+[20.956662] (-) TimerEvent: {}
+[21.057538] (-) TimerEvent: {}
+[21.158355] (-) TimerEvent: {}
+[21.259182] (-) TimerEvent: {}
+[21.359804] (-) TimerEvent: {}
+[21.460473] (-) TimerEvent: {}
+[21.561230] (-) TimerEvent: {}
+[21.662295] (-) TimerEvent: {}
+[21.763457] (-) TimerEvent: {}
+[21.863968] (-) TimerEvent: {}
+[21.964975] (-) TimerEvent: {}
+[22.065878] (-) TimerEvent: {}
+[22.166780] (-) TimerEvent: {}
+[22.268052] (-) TimerEvent: {}
+[22.368685] (-) TimerEvent: {}
+[22.469477] (-) TimerEvent: {}
+[22.569969] (-) TimerEvent: {}
+[22.670767] (-) TimerEvent: {}
+[22.771376] (-) TimerEvent: {}
+[22.871974] (-) TimerEvent: {}
+[22.972566] (-) TimerEvent: {}
+[23.073229] (-) TimerEvent: {}
+[23.174292] (-) TimerEvent: {}
+[23.275485] (-) TimerEvent: {}
+[23.376454] (-) TimerEvent: {}
+[23.477221] (-) TimerEvent: {}
+[23.577891] (-) TimerEvent: {}
+[23.678575] (-) TimerEvent: {}
+[23.779156] (-) TimerEvent: {}
+[23.879817] (-) TimerEvent: {}
+[23.980841] (-) TimerEvent: {}
+[24.082069] (-) TimerEvent: {}
+[24.182604] (-) TimerEvent: {}
+[24.284231] (-) TimerEvent: {}
+[24.385072] (-) TimerEvent: {}
+[24.485570] (-) TimerEvent: {}
+[24.586681] (-) TimerEvent: {}
+[24.687368] (-) TimerEvent: {}
+[24.693116] (cpp_turtle) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable robot_driver\x1b[0m\n'}
+[24.787621] (-) TimerEvent: {}
+[24.888364] (-) TimerEvent: {}
+[24.989139] (-) TimerEvent: {}
+[25.090791] (-) TimerEvent: {}
+[25.191502] (-) TimerEvent: {}
+[25.291969] (-) TimerEvent: {}
+[25.392425] (-) TimerEvent: {}
+[25.493021] (-) TimerEvent: {}
+[25.593796] (-) TimerEvent: {}
+[25.694908] (-) TimerEvent: {}
+[25.795534] (-) TimerEvent: {}
+[25.895990] (-) TimerEvent: {}
+[25.996537] (-) TimerEvent: {}
+[26.062138] (cpp_turtle) StdoutLine: {'line': b'[100%] Built target robot_driver\n'}
+[26.092095] (cpp_turtle) CommandEnded: {'returncode': 0}
+[26.096842] (-) TimerEvent: {}
+[26.197252] (-) TimerEvent: {}
+[26.298492] (-) TimerEvent: {}
+[26.399194] (-) TimerEvent: {}
+[26.503588] (-) TimerEvent: {}
+[26.607692] (-) TimerEvent: {}
+[26.705968] (cpp_turtle) JobProgress: {'identifier': 'cpp_turtle', 'progress': 'install'}
+[26.708424] (-) TimerEvent: {}
+[26.734587] (cpp_turtle) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle'], 'cwd': '/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'robot'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2706'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8287d9735c2935519f9fafc266aa4495'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/Desktop/Session09/Johnny-Answers-Session09/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot-virtual-machine:@/tmp/.ICE-unix/2706,unix/robot-virtual-machine:/tmp/.ICE-unix/2706'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/20e71b5d_2df1_4e43_a325_db16185fe714'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Q81YR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.305'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/Desktop/Session09/Johnny-Answers-Session09/build/cpp_turtle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8287d9735c2935519f9fafc266aa4495'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle:/opt/ros/humble')]), 'shell': False}
+[26.762136] (cpp_turtle) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.762828] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/cpp_turtle/initNode\n'}
+[26.763030] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/ament_index/resource_index/rosidl_interfaces/cpp_turtle\n'}
+[26.763177] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle\n'}
+[26.763318] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/msg\n'}
+[26.763461] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/msg/rosidl_generator_c__visibility_control.h\n'}
+[26.763600] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action\n'}
+[26.763735] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/measure_lap_time.h\n'}
+[26.763870] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail\n'}
+[26.764008] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__functions.h\n'}
+[26.764186] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__struct.h\n'}
+[26.764323] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__type_support.h\n'}
+[26.764459] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__functions.c\n'}
+[26.764594] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv\n'}
+[26.764728] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/find_wall.h\n'}
+[26.764874] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail\n'}
+[26.765012] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__functions.c\n'}
+[26.765146] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__type_support.h\n'}
+[26.765357] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__functions.h\n'}
+[26.765516] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__struct.h\n'}
+[26.765654] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/environment/library_path.sh\n'}
+[26.771934] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/environment/library_path.dsv\n'}
+[26.772214] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/libcpp_turtle__rosidl_generator_c.so\n'}
+[26.772369] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle\n'}
+[26.772567] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/msg\n'}
+[26.772720] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[26.772862] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action\n'}
+[26.773003] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail\n'}
+[26.773144] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__rosidl_typesupport_fastrtps_c.h\n'}
+[26.773283] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv\n'}
+[26.773418] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail\n'}
+[26.773555] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__rosidl_typesupport_fastrtps_c.h\n'}
+[26.773694] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/libcpp_turtle__rosidl_typesupport_fastrtps_c.so\n'}
+[26.773833] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle\n'}
+[26.774072] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/msg\n'}
+[26.774240] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[26.774399] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action\n'}
+[26.774638] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail\n'}
+[26.774804] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__type_support.c\n'}
+[26.774948] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__rosidl_typesupport_introspection_c.h\n'}
+[26.775090] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv\n'}
+[26.775231] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail\n'}
+[26.775370] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__rosidl_typesupport_introspection_c.h\n'}
+[26.775508] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__type_support.c\n'}
+[26.775648] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/libcpp_turtle__rosidl_typesupport_introspection_c.so\n'}
+[26.775790] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/libcpp_turtle__rosidl_typesupport_c.so\n'}
+[26.775927] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle\n'}
+[26.776083] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action\n'}
+[26.776220] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail\n'}
+[26.776362] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__traits.hpp\n'}
+[26.776718] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__builder.hpp\n'}
+[26.776874] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__struct.hpp\n'}
+[26.777014] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/measure_lap_time.hpp\n'}
+[26.777153] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv\n'}
+[26.777292] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail\n'}
+[26.777429] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__builder.hpp\n'}
+[26.777572] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__struct.hpp\n'}
+[26.777728] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__traits.hpp\n'}
+[26.777868] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/find_wall.hpp\n'}
+[26.778037] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle\n'}
+[26.778180] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/msg\n'}
+[26.778318] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[26.778456] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action\n'}
+[26.778677] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail\n'}
+[26.778845] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[26.778995] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/dds_fastrtps\n'}
+[26.779146] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv\n'}
+[26.779296] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail\n'}
+[26.779443] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[26.779590] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/dds_fastrtps\n'}
+[26.779727] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/libcpp_turtle__rosidl_typesupport_fastrtps_cpp.so\n'}
+[26.779863] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle\n'}
+[26.779998] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action\n'}
+[26.780139] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail\n'}
+[26.780276] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__rosidl_typesupport_introspection_cpp.hpp\n'}
+[26.780429] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/action/detail/measure_lap_time__type_support.cpp\n'}
+[26.780567] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv\n'}
+[26.780705] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail\n'}
+[26.780855] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__rosidl_typesupport_introspection_cpp.hpp\n'}
+[26.780994] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/include/cpp_turtle/cpp_turtle/srv/detail/find_wall__type_support.cpp\n'}
+[26.784888] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/libcpp_turtle__rosidl_typesupport_introspection_cpp.so\n'}
+[26.793821] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/libcpp_turtle__rosidl_typesupport_cpp.so\n'}
+[26.794121] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/environment/pythonpath.sh\n'}
+[26.794285] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/environment/pythonpath.dsv\n'}
+[26.794438] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle-0.0.0-py3.10.egg-info\n'}
+[26.794587] (cpp_turtle) StdoutLine: {'line': b'-- Installing: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[26.794733] (cpp_turtle) StdoutLine: {'line': b'-- Installing: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[26.794878] (cpp_turtle) StdoutLine: {'line': b'-- Installing: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[26.795021] (cpp_turtle) StdoutLine: {'line': b'-- Installing: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[26.795176] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle\n'}
+[26.795319] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/cpp_turtle_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.795460] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/cpp_turtle_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.795600] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/cpp_turtle_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.795742] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/_cpp_turtle_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[26.795884] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/libcpp_turtle__rosidl_generator_py.so\n'}
+[26.796023] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/_cpp_turtle_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[26.796177] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/action\n'}
+[26.796324] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/action/_measure_lap_time_s.c\n'}
+[26.796465] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/action/_measure_lap_time.py\n'}
+[26.796602] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/action/__init__.py\n'}
+[26.796760] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/__init__.py\n'}
+[26.796948] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/srv\n'}
+[26.797090] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/srv/_find_wall.py\n'}
+[26.797227] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/srv/_find_wall_s.c\n'}
+[26.797365] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/srv/__init__.py\n'}
+[26.797505] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/_cpp_turtle_s.ep.rosidl_typesupport_c.c\n'}
+[26.812554] (-) TimerEvent: {}
+[26.850524] (cpp_turtle) StdoutLine: {'line': b"Listing '/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle'...\n"}
+[26.850899] (cpp_turtle) StdoutLine: {'line': b"Listing '/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/action'...\n"}
+[26.851142] (cpp_turtle) StdoutLine: {'line': b"Listing '/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/srv'...\n"}
+[26.867269] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/cpp_turtle_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.867784] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/cpp_turtle_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.870632] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/local/lib/python3.10/dist-packages/cpp_turtle/cpp_turtle_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.870880] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/libcpp_turtle__rosidl_generator_py.so\n'}
+[26.871046] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/action/MeasureLapTime.idl\n'}
+[26.871202] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/srv/FindWall.idl\n'}
+[26.871631] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/action/MeasureLapTime.action\n'}
+[26.871858] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/srv/FindWall.srv\n'}
+[26.872025] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/srv/FindWall_Request.msg\n'}
+[26.872179] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/srv/FindWall_Response.msg\n'}
+[26.872324] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/cpp_turtle/lap_time_action_client\n'}
+[26.872464] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/cpp_turtle/lap_time_action_server\n'}
+[26.872636] (cpp_turtle) StdoutLine: {'line': b'-- Installing: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/cpp_turtle/robot_driver\n'}
+[26.906818] (cpp_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/cpp_turtle/robot_driver" to ""\n'}
+[26.907231] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/lib/cpp_turtle/wall_finder\n'}
+[26.910354] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/launch\n'}
+[26.910564] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/launch/cpp_turtle_launch.py\n'}
+[26.910727] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/ament_index/resource_index/package_run_dependencies/cpp_turtle\n'}
+[26.910881] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/ament_index/resource_index/parent_prefix_path/cpp_turtle\n'}
+[26.911030] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/environment/ament_prefix_path.sh\n'}
+[26.911218] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/environment/ament_prefix_path.dsv\n'}
+[26.911398] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/environment/path.sh\n'}
+[26.911547] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/environment/path.dsv\n'}
+[26.911689] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/local_setup.bash\n'}
+[26.911828] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/local_setup.sh\n'}
+[26.911969] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/local_setup.zsh\n'}
+[26.912112] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/local_setup.dsv\n'}
+[26.912876] (cpp_turtle) StdoutLine: {'line': b'-- Installing: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/package.dsv\n'}
+[26.913089] (-) TimerEvent: {}
+[26.913289] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/ament_index/resource_index/packages/cpp_turtle\n'}
+[26.914694] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/export_cpp_turtle__rosidl_generator_cExport.cmake\n'}
+[26.914856] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/export_cpp_turtle__rosidl_generator_cExport-noconfig.cmake\n'}
+[26.915009] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/export_cpp_turtle__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[26.915171] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/export_cpp_turtle__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[26.915320] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtle__rosidl_typesupport_introspection_cExport.cmake\n'}
+[26.915472] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtle__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[26.915704] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtle__rosidl_typesupport_cExport.cmake\n'}
+[26.915852] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtle__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[26.915995] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/export_cpp_turtle__rosidl_generator_cppExport.cmake\n'}
+[26.916133] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/export_cpp_turtle__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[26.916271] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/export_cpp_turtle__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[26.917182] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtle__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[26.917375] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtle__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[26.917527] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtle__rosidl_typesupport_cppExport.cmake\n'}
+[26.917676] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtle__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[26.917822] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/export_cpp_turtle__rosidl_generator_pyExport.cmake\n'}
+[26.918135] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/export_cpp_turtle__rosidl_generator_pyExport-noconfig.cmake\n'}
+[26.918310] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/rosidl_cmake-extras.cmake\n'}
+[26.918457] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[26.918610] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[26.918749] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[26.918892] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[26.919033] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[26.919217] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[26.919366] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtleConfig.cmake\n'}
+[26.919510] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/cmake/cpp_turtleConfig-version.cmake\n'}
+[26.919670] (cpp_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/robot/Desktop/Session09/Johnny-Answers-Session09/install/cpp_turtle/share/cpp_turtle/package.xml\n'}
+[26.927389] (cpp_turtle) CommandEnded: {'returncode': 0}
+[27.013632] (-) TimerEvent: {}
+[27.114276] (-) TimerEvent: {}
+[27.214788] (-) TimerEvent: {}
+[27.315493] (-) TimerEvent: {}
+[27.416122] (-) TimerEvent: {}
+[27.516673] (-) TimerEvent: {}
+[27.529578] (cpp_turtle) JobEnded: {'identifier': 'cpp_turtle', 'rc': 0}
+[27.531553] (-) EventReactorShutdown: {}
